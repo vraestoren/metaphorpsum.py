@@ -3,8 +3,9 @@ Web-API for [metaphorpsum.com](https://metaphorpsum.com) website that generates 
 
 ## Example
 ```python
-import metaphorpsum
-metaphorpsum = metaphorpsum.MetaphorpSum()
-sentences = metaphorpsum.get_sentences(count="")
+from metaphorpsum import MetaphorpSum
+
+metapsum = MetaphorpSum()
+sentences = metapsum.get_sentences(count="")
 print(sentences)
 ```
